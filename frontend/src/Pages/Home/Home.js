@@ -5,7 +5,7 @@ export default function Home() {
     <div className="dark">
       <div className="bg h-screen px-12 py-4 color  ">
         {/* navBar  */}
-
+    {/* this is comment  */}
         <div className="flex justify-between   ">
           <span className="border-r border-gray-600 pr-12 text-2xl font-bold cursor-pointer ">
             Mr. Anshu{" "}
