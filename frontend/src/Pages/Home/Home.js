@@ -66,7 +66,6 @@ export default function Home() {
               <div className="center-line text-2xl sm:mt-12 font-medium   ">
                 Login or Register{" "}
               </div>
-
               <div className="center-line ">
                 <a href="/auth">
                   <div className="  btn w-fit sm:mt-4 px-16 cursor-pointer  ">
@@ -78,7 +77,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className={theme ? "dark" : null}>
         <div className="bg color px-12 py-4  ">
           {/* My all skills is here  */}

@@ -4,7 +4,6 @@ import ThemeContext from "../../contex/themeContext/ThemeContext";
 import SignUp from "./SignUp";
 import AuthPageContext from "../../contex/authContext/authPageContext";
 import Signin from "./SignIn";
-
 export default function AuthPage() {
   const { theme } = React.useContext(ThemeContext);
   const { authPage } = React.useContext(AuthPageContext);
