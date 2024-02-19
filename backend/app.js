@@ -7,4 +7,10 @@ app.use(express.json());
 dotenv.config({
   path: "./env",
 });
+
+// router imports 
+import userRouter from './routes/user.route.js';
+
+app.use("/api/v1/users" , userRouter) ;
+
 export default app;
